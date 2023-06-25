@@ -65,9 +65,10 @@
 }
 
 .item-desc {
-  display: none;
   padding: 5px 15px;
   border: 1px solid #000;
+  background-color: #fff;
+  display: none;
   font-size: 9px;
 }
 
