@@ -1,0 +1,93 @@
+@import url(reset.css);
+
+#dropDown {
+  display: flex;
+  justify-content: center;
+}
+
+#dropDown .inner {
+  width: 800px;
+}
+
+.inner h1, h2 {
+  padding: 10px 0;
+}
+
+.inner .items {
+  display: flex;
+  gap: 40px;
+}
+
+.items .item {
+  width: 240px;
+  flex: 1;
+}
+
+.item:hover .item-desc {
+  width: inherit;
+  display: block;
+  position: absolute;
+}
+
+.item .item-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.item:first-child .item-list {
+  background-color: #3e77d3;
+}
+
+.item:nth-child(2) .item-list {
+  background-color: #4333b9;
+}
+
+.item:last-child .item-list {
+  background-color: #5713aa;
+}
+
+.item-list h4 {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.item-list a {
+  color: #fff;
+  padding: 3px 10px;
+  margin: 3px;
+  background-color: #000;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.item:last-child .item-list a {
+  padding: 3px 30px;
+}
+
+.item-desc {
+  display: none;
+  padding: 5px 15px;
+  border: 1px solid #000;
+  font-size: 9px;
+}
+
+.item-desc p, ul {
+  margin-bottom: 15px;
+}
+
+.item-desc li::before {
+  content: '-';
+  margin-right: 5px;
+}
+
+.item:first-child .item-desc {
+  border: 2px solid #3e77d3;
+}
+
+.item:nth-child(2) .item-desc {
+  border: 2px solid #4333b9;
+}
+
+.item:last-child .item-desc {
+  border: 2px solid #5713aa;
+}

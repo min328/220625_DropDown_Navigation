@@ -1,0 +1,33 @@
+/* Google Web Fonts - Manrope400 */
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body {
+  background-color: #fff;
+}
+
+* {
+  color: #333;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
